@@ -2,7 +2,7 @@
 
 <!-- Self-Hosted Hero & Terminal Banner (100% Reliable, Zero External Camo Timeout) -->
 <p align="center">
-  <img src="assets/hero-banner.svg" width="100%" alt="Abduqahhor Abduganiyev — Flutter & Full-Stack Engineer" />
+  <img src="assets/hero-banner-v2.svg" width="100%" alt="Abduqahhor Abduganiyev — Flutter & Full-Stack Engineer" />
 </p>
 
 <!-- Animated Typing Subtitle -->
