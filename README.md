@@ -1,7 +1,9 @@
 <div align="center">
 
-<!-- Animated Waving Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:02569B,50:0f172a,100:13B9FD&height=170&section=header&text=Abduqahhor%20Abduganiyev&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Flutter%20%26%20Full-Stack%20Engineer%20%E2%80%A2%20Mobile%20%E2%80%A2%20Backend%20%E2%80%A2%20AI%20Systems&descAlignY=58&descSize=16" width="100%" alt="Header Banner" />
+<!-- Self-Hosted Hero & Terminal Banner (100% Reliable, Zero External Camo Timeout) -->
+<p align="center">
+  <img src="assets/hero-banner.svg" width="100%" alt="Abduqahhor Abduganiyev — Flutter & Full-Stack Engineer" />
+</p>
 
 <!-- Animated Typing Subtitle -->
 <a href="https://github.com/flutterdevinmobile">
@@ -23,11 +25,6 @@
   <a href="mailto:abduqahhora364@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-</p>
-
-<!-- Custom Animated Hero & Terminal SVG -->
-<p align="center">
-  <img src="assets/hero-banner.svg" width="100%" alt="Abduqahhor Abduganiyev — Hero Developer Terminal" />
 </p>
 
 </div>
@@ -133,7 +130,7 @@ I design, architect, and ship **end-to-end digital products**—from pixel-perfe
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-green.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-night-green.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-green.svg" />
     <img alt="3D Contribution Graph" src="profile-3d-contrib/profile-night-green.svg" width="100%" />
   </picture>
 </p>
@@ -160,6 +157,8 @@ I design, architect, and ship **end-to-end digital products**—from pixel-perfe
 [![GitHub Repositories](https://img.shields.io/badge/📂%20Explore%20All%20Projects-GitHub-1e293b?style=for-the-badge&logo=github)](https://github.com/flutterdevinmobile?tab=repositories)
 [![Email Me](https://img.shields.io/badge/✉️%20abduqahhora364@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abduqahhora364@gmail.com)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:13B9FD,50:0f172a,100:02569B&height=110&section=footer" width="100%" alt="Footer Wave" />
+<p align="center">
+  <img src="assets/footer-banner.svg" width="100%" alt="Footer Banner" />
+</p>
 
 </div>
