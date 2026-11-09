@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="pCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#0b0f19" />
+    </linearGradient>
+    <linearGradient id="bCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+    <linearGradient id="bViolet" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+    <linearGradient id="bEmerald" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+    <linearGradient id="bAmber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#fbbf24" />
+    </linearGradient>
+    <linearGradient id="bRose" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f43f5e" />
+      <stop offset="100%" stop-color="#fb7185" />
+    </linearGradient>
+    <linearGradient id="bBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#60a5fa" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .p-badge { font-family: 'Fira Code', Consolas, monospace; font-size: 10.5px; font-weight: 700; letter-spacing: 0.8px; }
+    .p-title { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; font-size: 18px; font-weight: 800; fill: #f8fafc; }
+    .p-desc { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; font-size: 12.5px; fill: #94a3b8; }
+    .p-stack { font-family: 'Fira Code', Consolas, monospace; font-size: 11px; font-weight: 600; fill: #cbd5e1; }
+  </style>
+
+  <!-- Row 1, Col 1: UzCure -->
+  <g transform="translate(0, 6)">
+    <rect x="0" y="0" width="386" height="164" rx="14" fill="url(#pCard)" stroke="#1e293b" stroke-width="1.5" />
+    <rect x="20" y="0" width="110" height="3" fill="url(#bCyan)" />
+    <text x="24" y="30" class="p-badge" fill="#38bdf8">HEALTHTECH • PRODUCTION</text>
+    <text x="24" y="58" class="p-title">🩺 UzCure Telemedicine</text>
+    <text x="24" y="82" class="p-desc">End-to-end digital healthcare, doctor consultations</text>
+    <text x="24" y="100" class="p-desc">&amp; patient rehabilitation platform across Uzbekistan.</text>
+    <rect x="24" y="122" width="338" height="26" rx="6" fill="#161f30" />
+    <text x="36" y="139" class="p-stack" fill="#38bdf8">Flutter • Dart • FastAPI • PostgreSQL • Azure</text>
+  </g>
+
+  <!-- Row 1, Col 2: TeleSeller AI -->
+  <g transform="translate(407, 6)">
+    <rect x="0" y="0" width="386" height="164" rx="14" fill="url(#pCard)" stroke="#1e293b" stroke-width="1.5" />
+    <rect x="20" y="0" width="110" height="3" fill="url(#bViolet)" />
+    <text x="24" y="30" class="p-badge" fill="#c084fc">AI SAAS • TELEGRAM MINI APP</text>
+    <text x="24" y="58" class="p-title">🤖 TeleSeller AI Assistant</text>
+    <text x="24" y="82" class="p-desc">Autonomous LLM-powered sales agent &amp; storefront</text>
+    <text x="24" y="100" class="p-desc">for Telegram commerce with automated order flows.</text>
+    <rect x="24" y="122" width="338" height="26" rx="6" fill="#161f30" />
+    <text x="36" y="139" class="p-stack" fill="#c084fc">LLM Agents • Telegram API • Mini Apps • Docker</text>
+  </g>
+
+  <!-- Row 1, Col 3: Baraka POS & ERP -->
+  <g transform="translate(814, 6)">
+    <rect x="0" y="0" width="386" height="164" rx="14" fill="url(#pCard)" stroke="#1e293b" stroke-width="1.5" />
+    <rect x="20" y="0" width="110" height="3" fill="url(#bEmerald)" />
+    <text x="24" y="30" class="p-badge" fill="#34d399">RETAIL ERP • CROSS-PLATFORM</text>
+    <text x="24" y="58" class="p-title">🏪 Baraka POS &amp; DEWIBE ERP</text>
+    <text x="24" y="82" class="p-desc">High-speed Point-of-Sale system for mobile, desktop</text>
+    <text x="24" y="100" class="p-desc">&amp; web with barcode scanning, stock &amp; cashier sync.</text>
+    <rect x="24" y="122" width="338" height="26" rx="6" fill="#161f30" />
+    <text x="36" y="139" class="p-stack" fill="#34d399">Flutter Mobile &amp; Web • BLoC • Python • REST API</text>
+  </g>
+
+  <!-- Row 2, Col 1: UzRent (Rentify) -->
+  <g transform="translate(0, 186)">
+    <rect x="0" y="0" width="386" height="164" rx="14" fill="url(#pCard)" stroke="#1e293b" stroke-width="1.5" />
+    <rect x="20" y="0" width="110" height="3" fill="url(#bAmber)" />
+    <text x="24" y="30" class="p-badge" fill="#fbbf24">MARKETPLACE • ECOSYSTEM</text>
+    <text x="24" y="58" class="p-title">🏠 UzRent (Rentify)</text>
+    <text x="24" y="82" class="p-desc">Multi-category rental marketplace connecting owners</text>
+    <text x="24" y="100" class="p-desc">and renters with booking, maps &amp; admin portal.</text>
+    <rect x="24" y="122" width="338" height="26" rx="6" fill="#161f30" />
+    <text x="36" y="139" class="p-stack" fill="#fbbf24">Flutter • Dart • React • TypeScript • Python</text>
+  </g>
+
+  <!-- Row 2, Col 2: Hisobchi FinTech -->
+  <g transform="translate(407, 186)">
+    <rect x="0" y="0" width="386" height="164" rx="14" fill="url(#pCard)" stroke="#1e293b" stroke-width="1.5" />
+    <rect x="20" y="0" width="110" height="3" fill="url(#bRose)" />
+    <text x="24" y="30" class="p-badge" fill="#fb7185">FINTECH • BUSINESS SUITE</text>
+    <text x="24" y="58" class="p-title">📊 Hisobchi Finance Suite</text>
+    <text x="24" y="82" class="p-desc">Smart accounting, cashflow &amp; ledger automation</text>
+    <text x="24" y="100" class="p-desc">mobile app and web admin panel for SMEs.</text>
+    <rect x="24" y="122" width="338" height="26" rx="6" fill="#161f30" />
+    <text x="36" y="139" class="p-stack" fill="#fb7185">Flutter • Clean Arch • TypeScript • Next.js</text>
+  </g>
+
+  <!-- Row 2, Col 3: MyRehab Clinical -->
+  <g transform="translate(814, 186)">
+    <rect x="0" y="0" width="386" height="164" rx="14" fill="url(#pCard)" stroke="#1e293b" stroke-width="1.5" />
+    <rect x="20" y="0" width="110" height="3" fill="url(#bBlue)" />
+    <text x="24" y="30" class="p-badge" fill="#60a5fa">MEDTECH • CLINICAL PLATFORM</text>
+    <text x="24" y="58" class="p-title">🏥 MyRehab Medical System</text>
+    <text x="24" y="82" class="p-desc">Clinical rehabilitation tracking, exercise regimens</text>
+    <text x="24" y="100" class="p-desc">&amp; doctor-patient progress analytics portal.</text>
+    <rect x="24" y="122" width="338" height="26" rx="6" fill="#161f30" />
+    <text x="36" y="139" class="p-stack" fill="#60a5fa">Flutter • TypeScript • Python • FastAPI</text>
+  </g>
+</svg>

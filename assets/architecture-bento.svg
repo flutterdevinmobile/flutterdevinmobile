@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#0b0f19" />
+    </linearGradient>
+    <linearGradient id="gBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+    <linearGradient id="gIndigo" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+    <linearGradient id="gPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9333ea" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+    <linearGradient id="gEmerald" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .num { font-family: 'Fira Code', Consolas, monospace; font-size: 12px; font-weight: 700; letter-spacing: 1px; }
+    .card-title { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; font-size: 17px; font-weight: 800; fill: #f8fafc; }
+    .card-body { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; font-size: 12.5px; fill: #94a3b8; }
+    .tag { font-family: 'Fira Code', Consolas, monospace; font-size: 11px; font-weight: 600; fill: #e2e8f0; }
+  </style>
+
+  <!-- Card 1: Mobile Engineering -->
+  <g transform="translate(0, 10)">
+    <rect x="0" y="0" width="288" height="220" rx="16" fill="url(#cardBg)" stroke="#1e293b" stroke-width="1.5" />
+    <rect x="20" y="0" width="120" height="3" fill="url(#gBlue)" />
+    <text x="22" y="34" class="num" fill="#38bdf8">01 // MOBILE ARCHITECTURE</text>
+    <text x="22" y="62" class="card-title">📱 Cross-Platform Apps</text>
+    <text x="22" y="88" class="card-body">Production iOS &amp; Android apps with</text>
+    <text x="22" y="106" class="card-body">Clean Architecture, offline-first sync,</text>
+    <text x="22" y="124" class="card-body">biometric security &amp; 60/120fps UI.</text>
+    <rect x="22" y="146" width="70" height="24" rx="6" fill="#1e293b" />
+    <text x="57" y="162" text-anchor="middle" class="tag" fill="#38bdf8">Flutter</text>
+    <rect x="100" y="146" width="60" height="24" rx="6" fill="#1e293b" />
+    <text x="130" y="162" text-anchor="middle" class="tag" fill="#38bdf8">BLoC</text>
+    <rect x="168" y="146" width="96" height="24" rx="6" fill="#1e293b" />
+    <text x="216" y="162" text-anchor="middle" class="tag" fill="#38bdf8">Clean Arch</text>
+    <rect x="22" y="178" width="112" height="24" rx="6" fill="#1e293b" />
+    <text x="78" y="194" text-anchor="middle" class="tag" fill="#cbd5e1">GoRouter/Hive</text>
+    <rect x="142" y="178" width="122" height="24" rx="6" fill="#1e293b" />
+    <text x="203" y="194" text-anchor="middle" class="tag" fill="#cbd5e1">MethodChannels</text>
+  </g>
+
+  <!-- Card 2: Backend & APIs -->
+  <g transform="translate(304, 10)">
+    <rect x="0" y="0" width="288" height="220" rx="16" fill="url(#cardBg)" stroke="#1e293b" stroke-width="1.5" />
+    <rect x="20" y="0" width="120" height="3" fill="url(#gIndigo)" />
+    <text x="22" y="34" class="num" fill="#818cf8">02 // BACKEND &amp; CLOUD</text>
+    <text x="22" y="62" class="card-title">⚙️ Scalable APIs &amp; DBs</text>
+    <text x="22" y="88" class="card-body">High-throughput REST &amp; WebSocket</text>
+    <text x="22" y="106" class="card-body">backends, full-stack Dart servers,</text>
+    <text x="22" y="124" class="card-body">containerized microservices &amp; CI/CD.</text>
+    <rect x="22" y="146" width="76" height="24" rx="6" fill="#1e293b" />
+    <text x="60" y="162" text-anchor="middle" class="tag" fill="#818cf8">FastAPI</text>
+    <rect x="106" y="146" width="84" height="24" rx="6" fill="#1e293b" />
+    <text x="148" y="162" text-anchor="middle" class="tag" fill="#818cf8">Serverpod</text>
+    <rect x="198" y="146" width="68" height="24" rx="6" fill="#1e293b" />
+    <text x="232" y="162" text-anchor="middle" class="tag" fill="#818cf8">Django</text>
+    <rect x="22" y="178" width="92" height="24" rx="6" fill="#1e293b" />
+    <text x="68" y="194" text-anchor="middle" class="tag" fill="#cbd5e1">PostgreSQL</text>
+    <rect x="122" y="178" width="70" height="24" rx="6" fill="#1e293b" />
+    <text x="157" y="194" text-anchor="middle" class="tag" fill="#cbd5e1">Docker</text>
+    <rect x="200" y="178" width="66" height="24" rx="6" fill="#1e293b" />
+    <text x="233" y="194" text-anchor="middle" class="tag" fill="#cbd5e1">Azure</text>
+  </g>
+
+  <!-- Card 3: AI & Telegram Ecosystem -->
+  <g transform="translate(608, 10)">
+    <rect x="0" y="0" width="288" height="220" rx="16" fill="url(#cardBg)" stroke="#1e293b" stroke-width="1.5" />
+    <rect x="20" y="0" width="120" height="3" fill="url(#gPurple)" />
+    <text x="22" y="34" class="num" fill="#c084fc">03 // AI &amp; AUTOMATION</text>
+    <text x="22" y="62" class="card-title">🤖 AI Agents &amp; Mini Apps</text>
+    <text x="22" y="88" class="card-body">Autonomous LLM sales assistants,</text>
+    <text x="22" y="106" class="card-body">Telegram WebApps (Mini Apps),</text>
+    <text x="22" y="124" class="card-body">Payme/Click payment pipelines.</text>
+    <rect x="22" y="146" width="84" height="24" rx="6" fill="#1e293b" />
+    <text x="64" y="162" text-anchor="middle" class="tag" fill="#c084fc">LLM / RAG</text>
+    <rect x="114" y="146" width="150" height="24" rx="6" fill="#1e293b" />
+    <text x="189" y="162" text-anchor="middle" class="tag" fill="#c084fc">Telegram Mini Apps</text>
+    <rect x="22" y="178" width="110" height="24" rx="6" fill="#1e293b" />
+    <text x="77" y="194" text-anchor="middle" class="tag" fill="#cbd5e1">OpenAI/Gemini</text>
+    <rect x="140" y="178" width="124" height="24" rx="6" fill="#1e293b" />
+    <text x="202" y="194" text-anchor="middle" class="tag" fill="#cbd5e1">Payme &amp; Click</text>
+  </g>
+
+  <!-- Card 4: Web & Admin Ecosystems -->
+  <g transform="translate(912, 10)">
+    <rect x="0" y="0" width="288" height="220" rx="16" fill="url(#cardBg)" stroke="#1e293b" stroke-width="1.5" />
+    <rect x="20" y="0" width="120" height="3" fill="url(#gEmerald)" />
+    <text x="22" y="34" class="num" fill="#34d399">04 // ENTERPRISE SYSTEMS</text>
+    <text x="22" y="62" class="card-title">📊 POS, ERP &amp; Dashboards</text>
+    <text x="22" y="88" class="card-body">Full-featured CRM/ERP platforms,</text>
+    <text x="22" y="106" class="card-body">Point-of-Sale terminals, telemedicine</text>
+    <text x="22" y="124" class="card-body">&amp; real-time analytics dashboards.</text>
+    <rect x="22" y="146" width="90" height="24" rx="6" fill="#1e293b" />
+    <text x="67" y="162" text-anchor="middle" class="tag" fill="#34d399">TypeScript</text>
+    <rect x="120" y="146" width="144" height="24" rx="6" fill="#1e293b" />
+    <text x="192" y="162" text-anchor="middle" class="tag" fill="#34d399">React / Next.js</text>
+    <rect x="22" y="178" width="114" height="24" rx="6" fill="#1e293b" />
+    <text x="79" y="194" text-anchor="middle" class="tag" fill="#cbd5e1">Firebase FCM</text>
+    <rect x="144" y="178" width="120" height="24" rx="6" fill="#1e293b" />
+    <text x="204" y="194" text-anchor="middle" class="tag" fill="#cbd5e1">CRM / ERP / POS</text>
+  </g>
+</svg>
